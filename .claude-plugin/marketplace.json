@@ -1,0 +1,15 @@
+{
+  "name": "remcod",
+  "owner": {
+    "name": "Волков Виталий Викторович",
+    "url": "https://remcod.ru"
+  },
+  "plugins": [
+    {
+      "name": "remcod",
+      "source": "./plugins/remcod",
+      "version": "0.4.0",
+      "description": "Проекты, сметы, отчёты с файлами и оплатой, акты, PDF, комплектация, прайсы, аналитика и база знаний REMCOD через MCP и подтверждаемые черновики."
+    }
+  ]
+}

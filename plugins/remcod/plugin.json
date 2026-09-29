@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "remcod",
+  "version": "0.4.0",
+  "repository": "https://github.com/remcod-ru/remcod-plugin",
+  "description": "Проекты, сметы, отчёты с файлами и оплатой, акты, PDF, комплектация, прайсы, аналитика и база знаний REMCOD через MCP и подтверждаемые черновики.",
+  "author": {
+    "name": "Волков Виталий Викторович",
+    "url": "https://remcod.ru"
+  },
+  "homepage": "https://app.remcod.ru",
+  "keywords": [
+    "remcod",
+    "construction",
+    "projects",
+    "estimates",
+    "finance",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "REMCOD",
+        "shortDescription": "Проекты, сметы и финансы",
+        "longDescription": "REMCOD помогает работать с данными строительных и ремонтных проектов: получать сводки, находить задачи, проверять сметы и анализировать финансовые операции. Для доступа требуется учётная запись REMCOD и разрешение на выбранную организацию. Набор доступных операций определяется текущими правами пользователя. Изменения проходят существующее согласование черновика; действия записи выполняются только после подтверждения пользователя. Плагин не проводит банковские платежи и не заменяет профессиональную проверку сметы или документа.",
+        "developerName": "ИП Волков Виталий Викторович",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://app.remcod.ru",
+        "privacyPolicyURL": "https://app.remcod.ru/legal/privacy",
+        "termsOfServiceURL": "https://app.remcod.ru/legal/terms",
+        "defaultPrompt": [
+          "Покажи сводку по моим проектам в REMCOD.",
+          "Сравни версии сметы выбранного проекта.",
+          "Подготовь финансовую сводку по выбранному проекту."
+        ]
+      }
+    }
+  }
+}

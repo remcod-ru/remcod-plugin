@@ -1,0 +1,31 @@
+{
+  "name": "remcod",
+  "version": "0.4.0",
+  "description": "Проекты, задачи, сметы, отчёты и акты, финансы, комплектация и база знаний REMCOD через MCP с подтверждаемыми черновиками.",
+  "author": {
+    "name": "Волков Виталий Викторович",
+    "url": "https://remcod.ru"
+  },
+  "homepage": "https://app.remcod.ru",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "REMCOD",
+    "shortDescription": "Проекты, сметы, отчёты и финансы",
+    "longDescription": "Навыки для работы с данными строительных и ремонтных проектов REMCOD через официальный MCP: сводки и риски проектов, задачи и график, сметы и прайсы, отчёты о выполнении и акты, деньги и баланс заказчика, комплектация, контрагенты и база знаний. Доступ определяется правами пользователя в выбранной организации; любые изменения готовятся черновиком и применяются только после подтверждения.",
+    "developerName": "ИП Волков Виталий Викторович",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://app.remcod.ru",
+    "privacyPolicyURL": "https://app.remcod.ru/legal/privacy",
+    "termsOfServiceURL": "https://app.remcod.ru/legal/terms",
+    "defaultPrompt": [
+      "Покажи сводку по моим проектам в REMCOD.",
+      "Сравни версии сметы выбранного проекта.",
+      "Какой баланс заказчика по проекту и что списано по отчётам?"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

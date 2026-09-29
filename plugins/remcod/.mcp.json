@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "remcod": {
+      "type": "http",
+      "url": "https://app.remcod.ru/api/mcp",
+      "oauth_resource": "https://app.remcod.ru/api/mcp"
+    }
+  }
+}

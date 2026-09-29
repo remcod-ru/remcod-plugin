@@ -1,0 +1,20 @@
+{
+  "name": "remcod",
+  "interface": {
+    "displayName": "REMCOD"
+  },
+  "plugins": [
+    {
+      "name": "remcod",
+      "source": {
+        "source": "local",
+        "path": "./plugins/remcod"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
