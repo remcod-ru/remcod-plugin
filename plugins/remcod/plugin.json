@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "remcod",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "repository": "https://github.com/remcod-ru/remcod-plugin",
   "description": "Проекты, сметы, отчёты с файлами и оплатой, акты, PDF, комплектация, прайсы, аналитика и база знаний REMCOD через MCP и подтверждаемые черновики.",
   "author": {
