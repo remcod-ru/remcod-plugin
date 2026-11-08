@@ -9,7 +9,7 @@ description: Применять, когда пользователь дейст�
 
 - `get_estimate` — материалы и объёмы по плану.
 - `get_procurement_risks` — позиции под угрозой срыва сроков.
-- `get_procurement_margin_summary` — клиентская цена, себестоимость, маржа комплектации.
+- `get_procurement_margin_summary` — клиентская цена, себестоимость, рентабельность комплектации.
 - `list_counterparties`, `lookup_counterparty` — поставщики и реквизиты.
 - `get_project_finance_context` — хватает ли денег проекта на закупку.
 

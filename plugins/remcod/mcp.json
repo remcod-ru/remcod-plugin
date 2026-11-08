@@ -3,7 +3,7 @@
   "mcpServers": {
     "remcod": {
       "type": "streamable-http",
-      "url": "https://app.remcod.ru/api/mcp"
+      "url": "https://app.buildgen.ru/api/mcp"
     }
   }
 }

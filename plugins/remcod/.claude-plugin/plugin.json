@@ -1,12 +1,12 @@
 {
   "name": "remcod",
-  "version": "0.4.2",
+  "version": "0.5.1",
   "description": "Проекты, задачи, сметы, отчёты и акты, финансы, комплектация и база знаний REMCOD через MCP с подтверждаемыми черновиками.",
   "author": {
     "name": "Волков Виталий Викторович",
     "url": "https://remcod.ru"
   },
-  "homepage": "https://app.remcod.ru",
+  "homepage": "https://app.buildgen.ru",
   "keywords": [
     "remcod",
     "construction",
@@ -18,7 +18,7 @@
   "mcpServers": {
     "remcod": {
       "type": "http",
-      "url": "https://app.remcod.ru/api/mcp"
+      "url": "https://app.buildgen.ru/api/mcp"
     }
   }
 }

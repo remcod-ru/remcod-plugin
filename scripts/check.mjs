@@ -12,7 +12,7 @@ assert.equal(plugin.name, 'remcod');
 assert.match(plugin.version, /^\d+\.\d+\.\d+$/);
 assert.ok(plugin.extensions['com.openai'].interface.shortDescription.length <= 30);
 assert.deepEqual(Object.keys(mcp.mcpServers), ['remcod']);
-assert.deepEqual(mcp.mcpServers.remcod, { type: 'streamable-http', url: 'https://app.remcod.ru/api/mcp' });
+assert.deepEqual(mcp.mcpServers.remcod, { type: 'streamable-http', url: 'https://app.buildgen.ru/api/mcp' });
 for (const name of ['.codex-plugin', '.claude-plugin']) {
   const compatibility = await json(`plugins/remcod/${name}/plugin.json`);
   assert.equal(compatibility.name, plugin.name);

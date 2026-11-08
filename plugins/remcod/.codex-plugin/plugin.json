@@ -1,12 +1,12 @@
 {
   "name": "remcod",
-  "version": "0.4.2",
+  "version": "0.5.1",
   "description": "Проекты, задачи, сметы, отчёты и акты, финансы, комплектация и база знаний REMCOD через MCP с подтверждаемыми черновиками.",
   "author": {
     "name": "Волков Виталий Викторович",
     "url": "https://remcod.ru"
   },
-  "homepage": "https://app.remcod.ru",
+  "homepage": "https://app.buildgen.ru",
   "skills": "./skills/",
   "interface": {
     "displayName": "REMCOD",
@@ -18,9 +18,9 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://app.remcod.ru",
-    "privacyPolicyURL": "https://app.remcod.ru/legal/privacy",
-    "termsOfServiceURL": "https://app.remcod.ru/legal/terms",
+    "websiteURL": "https://app.buildgen.ru",
+    "privacyPolicyURL": "https://app.buildgen.ru/legal/privacy",
+    "termsOfServiceURL": "https://app.buildgen.ru/legal/terms",
     "defaultPrompt": [
       "Покажи сводку по моим проектам в REMCOD.",
       "Сравни версии сметы выбранного проекта.",
